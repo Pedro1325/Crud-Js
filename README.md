@@ -1,60 +1,70 @@
-![Thumbnail](./thumb.png)
 
-# Memoteca
+CRUD-JS
 
-Memoteca é um aplicativo organizador de pensamentos e frases que permite cadastrar, listar, editar e deletar pensamentos, incluindo informações como conteúdo e autoria.
+CRUD-JS é um aplicativo web que permite cadastrar, listar, editar e excluir pensamentos e frases, usando HTML, CSS e JavaScript, com Axios para comunicação com um backend fake (JSON Server).
 
-## 🔨 Funcionalidades do projeto
+É um projeto simples, mas perfeito para praticar CRUD (Create, Read, Update, Delete), manipulação de DOM e requisições HTTP.
 
-`Cadastro de pensamentos`: Permite adicionar novos pensamentos à lista, inserindo informações como conteúdo e autoria.
+🔹 Funcionalidades
 
-`Listagem de pensamentos`: Exibe os pensamentos cadastrados, permitindo visualizar o texto e a autoria.
+Adicionar pensamentos: Cadastrar novos pensamentos com conteúdo e autoria.
 
-`Edição de pensamentos`: Permite editar pensamentos existentes, atualizando as informações conforme necessário.
+Listar pensamentos: Visualizar todos os pensamentos cadastrados.
 
-`Exclusão de pensamentos`: Permite remover pensamentos da lista.
+Editar pensamentos: Alterar informações de pensamentos existentes.
 
-## ✔️ Técnicas e tecnologias utilizadas
+Excluir pensamentos: Remover pensamentos da lista.
 
-`JavaScript`: Linguagem de programação utilizada para desenvolver a lógica do aplicativo.
+🔹 Tecnologias utilizadas
 
-`Fetch API`: Utilizada para realizar requisições HTTP para comunicação com o servidor.
+HTML / CSS → Estrutura e estilo da interface.
 
-`Axios`: Biblioteca usada para facilitar e simplificar as requisições HTTP.
+JavaScript → Lógica do frontend e manipulação do DOM.
 
-`Node.js`: Plataforma utilizada para executar o ambiente de desenvolvimento.
+Axios → Requisições HTTP para o backend.
 
-`JSON Server`: Utilizado para simular um backend e facilitar o desenvolvimento e teste das operações CRUD.
+JSON Server → Backend fake para testes de CRUD localmente.
 
-`CSS`: Utilizado para estilização da interface do aplicativo.
+🔹 Como rodar o projeto
+
+Clonar o repositório:
+
+git clone https://github.com/Pedro1325/Crud-Js.git
 
 
-## 📁 Link do Figma
+Instalar JSON Server (se ainda não tiver):
 
-Você pode [acessar o figma do projeto aqui](https://www.figma.com/design/Sz1gmmemxqcB3amInL4Ndp/Rebrand-Memoteca-%7C-Curso-CRUD?node-id=148-26&t=FpdmfbiM1i1s6REQ-0).
-
-## 🛠️ Abrir e rodar o projeto
-
-Para executar a API fake, você vai precisar do NodeJS; a versão utilizada foi a 20.12.2.
-
-Instale o JSON Server globalmente (se ainda não estiver instalado):
-
-```bash
 npm install -g json-server
-```
 
-Para executar, abra um novo terminal e, dentro da pasta backend, execute:
 
-```bash
+Rodar o backend:
+
+cd backend
 npm start
-```
 
-Acesse o backend localmente em seu navegador:
 
-http://localhost:3000
+Isso vai iniciar a API fake em: http://localhost:3000
 
-Para executar o frontend, abra o projeto no Visual Studio Code. Com a extensão Live Server instalada, clique com o botão direito no arquivo index.html e selecione "Open with Live Server" no menu de contexto.
+Rodar o frontend:
 
-Acesse o frontend localmente em seu navegador:
+Abra o arquivo index.html com Live Server (VS Code)
 
-http://localhost:5500# Crud-alura
+Acesse o frontend em: http://localhost:5500
+
+🔹 Estrutura do projeto
+CRUD-JS/
+│
+├─ backend/        # Backend fake (JSON Server)
+│   ├─ db.json
+│   └─ package.json
+│
+├─ css/            # Estilos
+├─ js/             # Scripts JS
+├─ index.html      # Página principal
+└─ README.md       # Documentação
+
+🔹 Objetivo do projeto
+
+Praticar operações CRUD, manipulação de dados no frontend e integração de JavaScript com Axios, aprendendo também a organizar e versionar um projeto no GitHub.
+
+Se você quiser, posso te fazer uma versão ainda mais curta e chamativa, pronta para aparecer direto na página do GitHub, que atrai atenção e mostra rapidamente do que se trata o projeto.
